@@ -3,16 +3,16 @@
 [![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v1.json)](https://github.com/charliermarsh/ruff)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
-[![pages-build-deployment](https://github.com/JoseRZapata/data-science-project-template/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/JoseRZapata/data-science-project-template/actions/workflows/pages/pages-build-deployment)
-[![Test](https://github.com/JoseRZapata/data-science-project-template/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/JoseRZapata/data-science-project-template/actions/workflows/test.yml)
-[![codecov](https://codecov.io/gh/JoseRZapata/data-science-project-template/graph/badge.svg?token=7LCPX574UF)](https://codecov.io/gh/JoseRZapata/data-science-project-template)
+[![pages-build-deployment](https://github.com/3lueLightning/data_science_project_template/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/3lueLightning/data_science_project_template/actions/workflows/pages/pages-build-deployment)
+[![Test](https://github.com/3lueLightning/data_science_project_template/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/3lueLightning/data_science_project_template/actions/workflows/test.yml)
+<!-- [![codecov](https://github.com/3lueLightning/data_science_project_template/graph/badge.svg?token=7LCPX574UF)](https://codecov.io/gh/JoseRZapata/data-science-project-template) -->
 ---
 
 A modern template for data science projects with all the necessary tools for experiment, development, testing, and deployment. From notebooks to production.
 
-✨📚✨ Documentation: <https://joserzapata.github.io/data-science-project-template/>
+✨📚✨ Documentation: [here](https://joserzapata.github.io/data-science-project-template/)
 
-Source Code: <https://github.com/JoseRZapata/data-science-project-template>
+Source Code: [here](https://github.com/3lueLightning/data_science_project_template)
 
 ---
 
@@ -53,7 +53,7 @@ It is highly recommended to use a python version manager like [Pyenv] and this p
 
 **Note:** [Poetry] should always be installed in a dedicated virtual environment to isolate it from the rest of your system. [why?](https://python-poetry.org/docs/#installation)
 
-🌟 Check how to setup your environment: <https://joserzapata.github.io/data-science-project-template/local_setup/>
+🌟 Check how to setup your environment [here](https://github.com/3lueLightning/data_science_project_template/local_setup/)
 
 ### 🍪🥇 Via [Cruft] - **recommended**
 
@@ -62,33 +62,7 @@ pip install --user cruft # Install `cruft` on your path for easy access
 ```
 
 ```shell title="create project"
-cruft create https://github.com/JoseRZapata/data-science-project-template
-```
-
-### 🍪 Via [Cookiecutter]
-
-```shell title="install cookiecutter"
-pip install --user cookiecutter # Install `cookiecutter` on your path for easy access
-```
-
-```shell title="create project"
-cookiecutter gh:JoseRZapata/data-science-project-template
-```
-
-Note: **_Cookiecutter_** uses `gh:` as short-hand for `https://github.com/`
-
-## 🔗  Linking an Existing Project
-
-If the project was originally installed via [Cookiecutter], you must first use [Cruft] to link the project with the original template:
-
-```shell
-cruft link https://github.com/JoseRZapata/data-science-project-template
-```
-
-Then/else:
-
-```shell
-cruft update
+cruft create https://github.com/3lueLightning/data_science_project_template
 ```
 
 ## 🗃️ Project structure
@@ -159,7 +133,7 @@ Folder structure for data science projects  [why?](https://towardsdatascience.co
   with [Poetry] - [`why?`](https://mathdatasimplified.com/poetry-a-better-way-to-manage-python-dependencies/)
 - Project workflow orchestration
   with [Make] as an [interface shim](https://en.wikipedia.org/wiki/Shim_(computing))
-  - Self-documenting [Makefile](https://github.com/JoseRZapata/data-science-project-template/blob/main/{{cookiecutter.repo_name}}/Makefile); just type
+  - Self-documenting [Makefile](https://github.com/3lueLightning/data_science_project_template/blob/main/{{cookiecutter.repo_name}}/Makefile); just type
       `make` on the command line to display auto-generated documentation on available
       targets:
 - Automated Cookiecutter template synchronization with [Cruft] - [`why?`](https://careers.wolt.com/en/blog/tech/project-template-for-modern-python-packages)
@@ -279,7 +253,7 @@ tests                          Run tests with coverage
 [Cookiecutter]:https://cookiecutter.readthedocs.io/stable/
 [Coverage.py]: https://coverage.readthedocs.io/
 [Cruft]: https://cruft.github.io/cruft/
-[Data structure]: https://github.com/JoseRZapata/data-science-project-template/blob/main/{{cookiecutter.repo_name}}/data/README.md
+[Data structure]: https://github.com/3lueLightning/data_science_project_template/blob/main/{{cookiecutter.repo_name}}/data/README.md
 [Dependabot]: https://github.com/dependabot/dependabot-core
 [Flake8]:https://github.com/PyCQA/flake8
 [GitHub Actions]: https://github.com/features/actions
@@ -290,10 +264,10 @@ tests                          Run tests with coverage
 [mkdocs]: https://www.mkdocs.org/
 [mkdocstrings]: https://mkdocstrings.github.io/
 [Mypy]: http://mypy-lang.org/
-[Notebook template]: https://github.com/JoseRZapata/data-science-project-template/blob/main/{{cookiecutter.repo_name}}/notebooks/notebook_template.ipynb
+[Notebook template]: https://github.com/3lueLightning/data_science_project_template/blob/main/{{cookiecutter.repo_name}}/notebooks/notebook_template.ipynb
 [Poetry]: https://python-poetry.org/
 [pre-commit]: https://pre-commit.com/
-[Pull Request template]: https://github.com/JoseRZapata/data-science-project-template/blob/main/{{cookiecutter.repo_name}}/.github/pull_request_template.md
+[Pull Request template]: https://github.com/3lueLightning/data_science_project_template/blob/main/{{cookiecutter.repo_name}}/.github/pull_request_template.md
 [Pyenv]: https://github.com/pyenv/pyenv
 [Pylint]:https://github.com/PyCQA/pylint
 [Pytest]: https://docs.pytest.org/en/latest/
